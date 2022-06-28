@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200;400;700;800&display=swap');
 
 :root {
   --primary-color: #3282B8;
-  --primary-color-dark: #0F4C75;
+  --primary-color-dark: rgba(2,0,36,1);
   --accent-color: #FFF8F0;
 }
 
@@ -13,7 +14,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Stick No Bills', sans-serif;
 }
 
 .navbar {
@@ -118,7 +119,8 @@ h1 {
 }
 
 .text-section {
-  background-color: var(--primary-color);
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -214,4 +216,44 @@ footer {
   color: var(--accent-color);
   font-size: 18px;
 }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+
+.fa-linkedin {
+background: #007bb5;
+color: white;
+}
+
+.fa-instagram {
+background: #125688;
+color: white;
+}
+
+.fa-github {
+  background: #2c4762;
+  color: white;
+  }
+
 
