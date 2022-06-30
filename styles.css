@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200;400;700;800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@200;400;700;800&display=swap');
 :root {
   --primary-color: #3282B8;
   --primary-color-dark: rgba(2,0,36,1);
@@ -31,6 +30,7 @@ body {
   overflow: hidden;
   color: var(--accent-color);
   text-align: center;
+  font-family: 'Teko', sans-serif;
 }
 
 .menu-item {
@@ -102,6 +102,10 @@ h1 {
   font-weight: 800;
   color: var(--accent-color);
   text-transform: uppercase;
+}
+
+h3 {
+  font-family: 'Teko', sans-serif;
 }
 
 .socials {
