@@ -260,4 +260,27 @@ color: white;
   color: white;
   }
 
-
+  .tech-icons-container {
+    background-color: rgba(255, 255, 255, 0.801);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    
+  }
+  
+  .tech-icon-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0px 60px;
+  }
+  
+  .tech-icon-list-end {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
